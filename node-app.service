@@ -1,0 +1,9 @@
+[Unit]
+Description=Node testing
+
+[Service]
+ExecStart=/usr/bin/node /vagrant/app.js
+
+[Install]
+WantedBy=multi-user.target
+
